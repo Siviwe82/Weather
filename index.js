@@ -36,3 +36,5 @@ searchCity.addEventListener("submit", search);
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
 dateElement.innerHTML = formatDate(currentTime);
+
+searchCity=("Sydney");
