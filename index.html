@@ -8,3 +8,48 @@
 <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
  <link rel="stylesheet" href="src/styles.css" />
     <title>weather-app</title>
+    </head>
+<body>
+<div class="container">
+<div class="weather-app">
+<form class="search-form" id="search-form">
+<div class="row">
+<div class = "col-9">
+<input type="seach" placeholder="Type a city" autofocus="on" autocomplete="off" id="city-input" class="form-control shadow-sm">
+</div>
+<div class="col-3">
+<input type="submit" value="Search" class="form-control btn btn-primary shadow-sm">
+</div>
+<div class="col-3">
+<button class="btn btn-success w-1000" id="current-location-button"> Current </button>
+</div>
+</div>
+</form>
+<h1 id="city"> Sydney NSW, Australia </h1>
+<ul>
+<li id="date">Tuesday 16:00</li>
+<li id="discription"></li>
+</ul>
+<div class="row>"
+<div class="col-6">
+<div class="clearfix">
+<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/080/408/original/sun_with_clouds.png?1683202909" alt="Cloudy icon" class="weather-icon float-left">
+<div class="float-left">
+</div>
+</div>
+<div class="col-6">
+<ul>
+<li>
+  " Humidity: "
+  <span id="humidity"></span>
+  "% "
+</li>
+<li> 
+  "Wind: "
+  <span id="wind"></span>
+  "km/h"
+</li>
+</ul>
+</div>
+</body>
+</html>
